@@ -1,0 +1,36 @@
+body 
+{
+    background-color: lightcyan;
+}
+
+h1
+{
+    color: black;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 30px;
+    margin-top: 60px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow: 1px 1px 58px blue;}
+    to {box-shadow: 1px 1px 58px red;}
+}
+
+p 
+{
+    font-size: 25px;
+}
